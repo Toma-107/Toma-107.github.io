@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Personal portfolio of Farhana Yeasmin Toma, an aspiring Front-End Developer learning JavaScript and the MERN stack." />
+  <meta name="theme-color" content="#0b0b0f" />
+  <meta property="og:title" content="Toma | Front-End Developer" />
+  <meta property="og:description" content="Aspiring Front-End Developer learning JavaScript and the MERN stack." />
+  <meta property="og:type" content="website" />
+  <title>Toma | Front-End Developer</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+
+  <header class="header">
+    <a href="#home" class="logo">Toma<span>.</span></a>
+
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <p class="tag">HELLO, I’M TOMA</p>
+      <h1>Learning today.<br />Building for <span>tomorrow.</span></h1>
+      <p class="intro">
+        I’m Farhana Yeasmin Toma, a Computer Science and Technology student
+        learning Front-End Development, with the MERN stack as my next step.
+      </p>
+      <div class="actions">
+        <a href="#projects" class="btn">Explore my work</a>
+        <a href="https://github.com/Toma-107" class="btn ghost" target="_blank" rel="noopener noreferrer">View my
+          GitHub</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="tag">GET TO KNOW ME</p>
+      <h2>About me</h2>
+      <p>
+        I study Computer Science and Technology at Khulna Mohila Polytechnic
+        Institute. I enjoy the moment an idea turns into a real web page that
+        people can open and use.
+      </p>
+      <p>
+        I already build responsive pages with HTML, CSS, Tailwind CSS and
+        Bootstrap. Right now I’m practicing JavaScript, and after that I’ll
+        learn React, Node.js, Express and MongoDB. My goal is to become a
+        skilled Front-End Developer who can also build the back end.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="tag">WHAT I USE AND LEARN</p>
+      <h2>My skills</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>I know</h3>
+          <ul class="list">
+            <li>HTML5</li>
+            <li>CSS3 and responsive design</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+            <li>Git and GitHub</li>
+            <li>VS Code and Figma</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>I’m practicing</h3>
+          <ul class="list">
+            <li>JavaScript fundamentals</li>
+            <li>Problem-solving</li>
+            <li>DOM and events</li>
+          </ul>
+        </article>
+        <article class="card card-next">
+          <h3>I’m learning next</h3>
+          <ul class="list">
+            <li>React.js</li>
+            <li>Node.js and Express.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="tag">MY LEARNING JOURNEY</p>
+      <h2>Projects</h2>
+      <p>
+        This is my first project, and the one you’re looking at. More will
+        follow as I learn.
+      </p>
+      <div class="cards single">
+        <article class="card project">
+          <h3>Personal portfolio</h3>
+          <p>
+            A responsive website that introduces me, my skills and my learning
+            path. I built it to practice real-world HTML and CSS, then
+            published it with GitHub Pages.
+          </p>
+          <ul class="list">
+            <li>Semantic HTML structure</li>
+            <li>Responsive layout with CSS Grid and Flexbox</li>
+            <li>Dark theme with a single accent color</li>
+            <li>Hosted for free on GitHub Pages</li>
+          </ul>
+          <p class="project-links">
+            <span class="project-status">First version, still improving</span>
+            <a href="https://github.com/Toma-107/Toma-107.github.io" target="_blank" rel="noopener noreferrer">View the
+              code</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="tag">LET’S CONNECT</p>
+      <h2>Contact me</h2>
+      <p>
+        I’d love to connect, get feedback and learn from new opportunities.
+      </p>
+
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=farhanatoma1007@gmail.com&su=Hello%20Toma" class="btn"
+        target="_blank" rel="noopener noreferrer">Email me</a>
+
+      <p>
+        <a href="https://github.com/Toma-107" target="_blank" rel="noopener noreferrer">Visit my GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      © <span id="year">2026</span> Farhana Yeasmin Toma. Built while
+      learning.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
